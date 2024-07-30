@@ -1,0 +1,166 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "EB Garamond", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  line-height: 1.6;
+  color: #afafaf;
+  background-color: #2e2e2e;
+}
+
+header {
+  background-color: #067230;
+  color: #000000;
+  padding: 4px 0;
+}
+
+header h1 {
+  font-family: "Audiowide", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin: 0;
+}
+
+header nav li {
+  display: inline;
+  margin-left: 16px;
+  font-size: 18px;
+}
+
+header nav li a {
+  color: #000000;
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1480px;
+  margin: 0 auto;
+  padding: 16px;
+}
+
+header .container,
+section .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+h2,
+h3,
+nav li a {
+  font-family: "Audiowide", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin-bottom: 16px;
+}
+
+p,
+li,
+textarea,
+input,
+button {
+  font-family: "EB Garamond", serif;
+}
+
+section {
+  margin-bottom: 24px;
+}
+
+.review {
+  display: flex;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+.review.invertida {
+  flex-direction: row-reverse;
+}
+
+.review-img {
+  max-width: 45%;
+  height: auto;
+  margin: 0 16px;
+}
+
+.review-texto {
+  max-width: 50%;
+}
+
+.brands-list {
+  list-style: none;
+  display: flex;
+  gap: 8px;
+}
+
+.brands-list img {
+  height: 24px;
+}
+
+.contact-methods {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.contact-section {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-section.social-section,
+.contact-section.address-section {
+  margin-top: 330px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+form input,
+form textarea,
+form button {
+  padding: 8px;
+  width: 320px;
+  background-color: #afafaf;
+}
+
+form textarea {
+  height: 180px;
+  resize: none;
+}
+
+form button {
+  background-color: #067230;
+  color: #000000;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+form button:hover {
+  background-color: #12ad34;
+}
+
+.social-media {
+  list-style: none;
+  display: flex;
+  gap: 8px;
+}
+
+.social-media img {
+  height: 24px;
+}
+
+footer {
+  background-color: #067230;
+  color: #000000;
+  text-align: center;
+  padding: 4px 0;
+}
